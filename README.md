@@ -1,3 +1,24 @@
+# CS410 Final Project by Mehul Pandey, Anshuman Dikhit, and Eric Noelke
+
+## What It Does
+The application we have developed stems from the idea of comparing Text Summarizer API, a software we found online, to the LDA model we learned 
+about in class. We want to compare, quantify, and visualize the accuracy or inaccuracy of the summarized text to the original data.
+
+## How It Works
+To begin, the application takes in copy and pasted text data which will stand as the original text. The interface prompts or asks the user how 
+many sentences long the summary should be. After this step, the application will trigger an API call to the Text Summarizer API and will then return
+a summary of the specified length which we refer to as the summarized text data. Next, we will run an LDA model on both of these text data's and using 
+that model, the application will visually quantify how accurate the summarized version of the text data is to the original data.
+
+## What It's Used For
+There are many text summarization tools out there, and many people do not know how accurate the tools are. This tool allows users to understand how accurate 
+the summarization tools are. The users can utilize this tool to maximize the accuracy of their summary depending on the number of sentences to summarize the 
+text. We believe this tool can be useful for many individuals.
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
