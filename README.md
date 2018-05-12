@@ -15,6 +15,11 @@ There are many text summarization tools out there, and many people do not know h
 the summarization tools are. The users can utilize this tool to maximize the accuracy of their summary depending on the number of sentences to summarize the 
 text. We believe this tool can be useful for many individuals.
 
+## Distribution of Responsibilities
+Mehul - Implementation of LDA model generation and calculation of accuracy
+Eric - Documentation of project and progress updates
+Anshuman - Implementation of front end and back end, wiring of LDA models and accuracy to app
+
 
 
 
