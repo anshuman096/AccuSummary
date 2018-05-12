@@ -78,9 +78,9 @@ def summarize():
     params_json = json.dumps(params)
     loaded_params = json.loads(params_json)
     original = loaded_params["text"]
-    # summary = get_summary(params_json)
-    summary = {"sentences": []}
-    summary["sentences"].append("Automatic summarization is the process of shortening a text document with software, in order to create a summary with the major points of the original document. Automatic data summarization is part of machine learning and data mining. The main idea of summarization is to find a subset of data which contains the information of the entire set. There are two general approaches to automatic summarization: extraction and abstraction. Extractive methods work by selecting a subset of existing words, phrases, or sentences in the original text to form the summary. In contrast, abstractive methods build an internal semantic representation and then use natural language generation techniques to create a summary that is closer to what a human might express.")
+    summary = get_summary(params_json)
+    # summary = {"sentences": []}
+    # summary["sentences"].append("Automatic summarization is the process of shortening a text document with software, in order to create a summary with the major points of the original document. Automatic data summarization is part of machine learning and data mining. The main idea of summarization is to find a subset of data which contains the information of the entire set. There are two general approaches to automatic summarization: extraction and abstraction. Extractive methods work by selecting a subset of existing words, phrases, or sentences in the original text to form the summary. In contrast, abstractive methods build an internal semantic representation and then use natural language generation techniques to create a summary that is closer to what a human might express.")
     print original
     print summary
     texts = []
