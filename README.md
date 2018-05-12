@@ -16,9 +16,13 @@ the summarization tools are. The users can utilize this tool to maximize the acc
 text. We believe this tool can be useful for many individuals.
 
 ## Distribution of Responsibilities
+
 Mehul - Implementation of LDA model generation and calculation of accuracy
+
 Eric - Documentation of project and progress updates
+
 Anshuman - Implementation of front end and back end, wiring of LDA models and accuracy to app
+
 
 
 
